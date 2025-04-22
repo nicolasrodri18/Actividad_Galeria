@@ -1,0 +1,113 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.1);
+    background-image: url('imagenes/kame-house-dragon-ball-casa-de-muten-roshi-maestro.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
+main{
+    background-color: rgba(180, 238, 197, 0.301);
+}
+.card {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 10px;
+    height: 300px;
+    width: 200px;
+    border: 2px solid #e075b7;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    background-color: #ee97db;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    
+}
+
+.card img {
+    width: 100%;
+    height: 85%;
+    object-fit: contain;
+    border-radius: 8px;
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+.card h2 {
+    margin: 0; 
+    font-size: 1.5em; 
+}
+
+#card-1 {
+    background-color: #dae2b2; 
+}
+
+#card-2 {
+    color: rgb(138, 122, 206);
+}
+
+#card-3 {
+    border: rgb(143, 224, 143) solid 5px;
+}
+
+#card-4 {
+    background-color: rgb(189, 176, 139);
+}
+
+#card-4 h2 {
+    font-size: 2.0rem;
+}
+
+#card-5 {
+    box-shadow: 3px 4px 20px rgb(153, 94, 151);
+}
+
+#card-6 {
+    border: rgb(56, 44, 121) solid 6px; 
+    background-color: rgb(132, 116, 211);
+    color: rgb(156, 78, 154);
+    padding: 1.6em; 
+    margin: 1.6em; 
+}
+
+#card-7 {
+    background-image: linear-gradient(to bottom right, #678643, #88976b);
+    color: rgb(63, 97, 56);
+}
+
+#card-8 { 
+    background-image: radial-gradient(circle, #63eb6e, #FF9800);
+    color: #000000;
+}
+#dende {
+    width: 160px;
+}
+
+#card-8 img {
+    max-width: 100%; 
+    height: auto;   
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#card-9 {
+    border: 3px solid rgb(73, 9, 9);
+    font-size: 1.5rem;
+    padding: 0.5em;
+    margin: 15px;
+    background-color: rgb(253, 158, 245);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
